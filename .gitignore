@@ -1,0 +1,42 @@
+# Credentials and local environment overrides
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python environments, bytecode, and tooling caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local run history and logs
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.sqlite3-*
+*.log
+
+# Local reference documents
+LeetCode_Agent_Guide.pdf
+LeetCode_Agent_Complete_Guide.pdf
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Temporary build and artifact output
+tmp/
+output/
+build/
+dist/
+*.egg-info/
